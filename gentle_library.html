@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>G.Library</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="gentle_library.css">
+
+
+	</head>
+	<body class="paddings center">
+
+	<div class="lb_1"></div>
+	<OVER>
+		<p class="center bold lrg">1-1 TEXT over Image</p>
+		<div class="box">
+			<p>Text on CENTER</p>
+			<div class="over_box b_med full_center">
+				<p class="">Hello World</p>
+			</div>
+		</div>
+		<div class="pad_v">
+<strong>[set parent box]</strong> display:flex<br>
+<strong>[Children box]</strong><Br>
+justify-content: center; // Horizontal Center<br>
+align-items: center; // Vertical Center<br>
+		</div>
+
+		<div class="box">		
+			<p>Text on TOP CENTER</p>
+			<div class="over_box b_med top_center">
+				<p class="">Hello World</p>
+			</div>
+		</div>
+		<div class="pad_v">
+<strong>[set parent box]</strong><br>
+display:flex<br>
+<strong>[Children box]</strong><Br>
+justify-content: center; // Horizontal Center
+		</div>
+
+		<div class="box over_box2 b_med">
+			<div class="bot-ele">
+				<button class="ppp">Hello World</button>
+			</div>
+		</div>
+		<div class="pad_v">
+<strong>[set parent box]</strong><br>
+ display:flex; flex-flow: row wrap;<br>
+ justify-content: flex-start;<br>
+<strong>[Children box]</strong><Br>
+display:flex; flex-flow:column nowrap;<br>
+<strong>Text : SPAN </strong><br>
+margin-top:auto; <Br><i>* adjust with padding-bottom * </i>
+https://wpbeaches.com/aligning-last-item-bottom-container-flexbox/
+
+		</div>
+
+
+
+		<p class="center bold lrg">1-4 IMAGE over Image</p>
+		<div class="box pad_v">
+			<div class="over_box b_med full_center">
+				<img class="base_img" src="images/1.jpg">
+				<img class="over_icon" src="icons/play_button.svg">
+			</div>
+		</div>
+
+
+		<p class="center bold lrg">1-5 DIV over Image Animation</p>
+		<div class="box pad_v">
+			<div class="ani_box hide_over b_med full_center">
+				<img class="base_img" src="images/1.jpg">
+				<div class="over_ani from_bottom">
+					<p class="paddings_s">Hello this is the Fun Animation yay.</p>
+				</div>
+			</div>
+		</div>
+	</OVER>
+
+	<div class="lb_1"></div>
+
+	<LAYOUT>
+	<p class="center bold lrg">RESPONSIVE LAYOUT</p>
+		<p>INSIDE CONTENTS FIXED LAYOUT</p>
+		<div class="box flex outline">
+			<div class="item   margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>
+			<div class="item   margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>
+			<div class="item item_sp margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>
+			<div class="item   margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>
+			<div class="item   margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>
+			<div class="item   margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>	
+			<div class="item   margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="n-l">Menus</div>
+			<div class="n-c">LOGO</div>
+			<div class="n-r">MENURs</div>						
+		</div>
+
+
+		<p>INSIDE CONTENTS CHANGED LAYOUT</p>
+		<div class="box flex outline">
+			<div class="item margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>
+			<div class="item margins">
+				<div class="flex_content">
+					<img src="images/logo01.png">
+					<p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p>
+				</div>
+			</div>
+			<div class="item item_one margins">
+				<div class="flex_content cancel">
+					<div class="half"><img src="images/1.jpg"></div>
+					<div class="half down"><p>LOGO TITLE COMES HERE</p><p>AUTHOR</p><p><a href="#">READ MORE</a></p></div>
+				</div>
+			</div>
+		</div>
+	</LAYOUT>
+
+
+	<BUTTONS>
+		<p class="center bold lrg">BUTTONS</p>
+		<div class="box outline">
+			<p>Button Type 1</p>
+			<div class="anibox">
+				<div class="ani_effect"></div>
+				<p>Visit Website</p>
+			</div>
+				<p>More Inspiration: https://tympanus.net/Development/ButtonStylesInspiration/</p>
+		</div>
+	</BUTTONS>
+
+	<ICONS>
+		<p class="center bold lrg">ICONS</p>
+		<div class="box outline">
+			<p><i class="glyphicon glyphicon-cloud icon_style"></i>Icons Using Bootstrap 3.7</p>
+			<p>Google Material Icons</p>
+			<p><i class="fa fa-file icon_style"></i>Font Awesome Icons</p>
+		</div>
+
+		<div class="box outline">
+			<p>SNS ICONS using FontAwesome</p>
+<i class="fa fa-facebook-official icon_style"></i>
+<i class="fa fa-twitter icon_style"></i>
+<i class="fa fa-windows icon_style"></i>			
+		</div>
+<i class="fa fa-envira sp_style"></i>			
+
+	</ICONS>
+
+
+	<LINEBREAK>
+	<p class="center bold lrg">LineBreak HR Examples</p>
+		<hr class="style1">
+		<hr class="style2">
+		<p>ICON Codes:<br>
+			http://astronautweb.co/snippet/font-awesome/
+		</p>
+	</LINEBREAK>
+
+<SHAPE>
+	<p class="center bold lrg">SHAPE Examples</p>
+	<p>TAG Form</p>
+	<div class="form_box">
+		<div class="square">READ </div>
+		<div class="triangle"></div>
+	</div>
+	<p>different directions are also avialble</p>
+
+
+	<p>Ribbon</p>
+	<div class="ribbon">
+		<span class="ribbon-text">Hello World</span>
+	</div>
+
+
+	<p>Ribbon - Left</p>
+	<div class="boxx">
+		<div class="side_ribbon">
+			<span class="side_ribbon-text">jp</span>
+		</div>
+	</div>
+
+
+	<p>Three Circles</p>
+	<div class="three-circles">
+		<span>Hello</span>
+		<div class="three-circles-left"><span>About</span></div>
+		<div class="three-circles-right"><span>Contact</span></div>		
+	</div>
+	<p>Triangle With Border</p>
+	<p>https://jhaurawachsman.com/2013/css-triangles-border-stroke/</p>
+	<p>More Inpsiration</p>
+	<p>http://www.hongkiat.com/blog/creative-css-shadows/<br>
+	https://css-tricks.com/creating-non-rectangular-headers/<br>
+	http://www.bypeople.com/css-boxes/
+	</p>
+
+	<div id="base"></div>
+	<div class="boxxx"></div>
+
+	<p>https://css-tricks.com/set-text-on-a-circle/</p>
+</SHAPE>
+
+
+<BACKGROUND>
+	<p class="center bold lrg">LineBreak HR Examples</p>
+	<p>https://uigradients.com/#CosmicFusion</p>
+</BACKGROUND>
+
+<IMAGEDECO>
+	<div class="imagedeco deg">
+		<div class="imageblock wwhite"></div>
+		<div class="imageblock"></div>
+		<div class="imageblock"></div>				
+		<div class="imageblock wwhite"></div>
+		<div class="imageblock"></div>
+		<div class="imageblock"></div>	
+		<div class="imageblock"></div>
+		<div class="imageblock"></div>
+		<div class="imageblock"></div>					
+		<div class="imageblock"></div>
+		<div class="imageblock"></div>
+		<div class="imageblock"></div>					
+		<div class="imageblock wwhite"></div>					
+		<div class="imageblock"></div>
+		<div class="imageblock"></div>
+		<div class="imageblock wwhite"></div>	
+	</div>
+
+
+		<div class="img_shadow">
+			<img src="images/1.jpg">
+		</div>
+
+</IMAGEDECO>
